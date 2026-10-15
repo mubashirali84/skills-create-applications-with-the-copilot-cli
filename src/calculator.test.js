@@ -28,5 +28,5 @@ test("rejects non-finite operands", () => {
 });
 
 test("rejects unsupported operations", () => {
-  assert.throws(() => calculate(2, "%", 3), /Unsupported operation/);
+  assert.throws(() => calculate(2, "÷", 3), /Unsupported operation/);
 });
